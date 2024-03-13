@@ -12,7 +12,7 @@ public class ConnectionTest {
 			Connection conn = ConnectionFactory.getConnection();
 			
 			if(conn != null) {
-				System.out.println("Conexão foi estavbelicida!");
+				System.out.println("Conexão foi estabelecida!");
 			} else {
 				System.out.println("Houve algum problema ao conectar");
 			}
