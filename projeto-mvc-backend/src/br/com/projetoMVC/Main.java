@@ -9,6 +9,10 @@ public class Main {
 		
 		ProdutoController controller = new ProdutoController();
 		
+		Produto p = new Produto();
+		p.setDescricao("Cadeira Gamer");
+		controller.cadastrar(p);
+		
 		System.out.println("- Lista de Produtos - ");
 		System.out.println("id    Descrição");
 		for (Produto produto : controller.ListarTodos()) {
